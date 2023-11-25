@@ -1,0 +1,71 @@
+.navbar-brand {
+    color: gold;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-link {
+    color: gold;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.nav-link:hover{
+    color: white;
+    transition: step-start;
+}
+
+.navbar-toggler{
+      background:white;
+      border-top-right-radius:10px;
+      border-bottom-left-radius:10px;
+      transition:all 1s;
+      &:after,&:before{
+        content:" ";
+        width:10px;
+        height:10px;
+        position:absolute;
+        border :0px solid #fff;
+        transition:all 1s;
+        }
+      &:after{
+        top:-1px;
+        left:-1px;
+        border-top:5px solid black;
+        border-left:5px solid black;
+      }
+      &:before{
+        bottom:-1px;
+        right:-1px;
+        border-bottom:5px solid black;
+        border-right:5px solid black;
+      }
+      &:hover{
+     border-top-right-radius:0px;
+     border-bottom-left-radius:0px;
+     background:white;
+     color:gold;
+        &:before,&:after{
+          
+          width:100%;
+          height:100%;
+          border-color:white;
+        }
+      }
+}
+    
+.nav-link{
+ background:black;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+.navbar-toggler{
+    background-color: gold;
+}
