@@ -1,26 +1,31 @@
-.navbar-brand {
+#navbarbrand{
     color: gold;
     font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.navbar-brand:hover{
+#navbarbrand:hover{
     color: white;
+    transition: 2ms;
+}
+#navbarcolor{
+  color: gold;
+  font-display: ;
 }
 
-.nav-link {
+#navbarcolor{
     color: gold;
     font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
-.nav-link:hover{
+#navbarcolor:hover{
     color: white;
-    transition: step-start;
+    transition:3ms;
 }
 
-.navbar-toggler{
+/* .navbar-toggler{
       background:white;
       border-top-right-radius:10px;
       border-bottom-left-radius:10px;
@@ -57,7 +62,8 @@
           border-color:white;
         }
       }
-}
+} */
+
     
 .nav-link{
  background:black;
@@ -68,4 +74,24 @@
 
 .navbar-toggler{
     background-color: gold;
+}
+
+#video-container{
+  width: 100%;
+  height: 40%;
+}
+#video-container {
+  position: relative;
+}
+
+#text-overlay {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:gold;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
